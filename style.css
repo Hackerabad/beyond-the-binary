@@ -15,12 +15,12 @@
 }
 @font-face {
   font-family: GothamHTF-Bold;
-  src: url(./assets/GothamHTF/GothamHTF-Bold.otf);
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 }
 
 body {
   margin: 0 auto;
-  font-family: "GothamHTF-Light", sans-serif;
+  font-family: "open sans", sans-serif;
   overflow-x: hidden;
 }
 h1 {
@@ -193,7 +193,7 @@ a.linkedin {
   display: block;
   margin: 25% auto 5% auto;
   /* margin-top: 25%; */
-  width: 120%;
+  width: 50%;
   max-height: 500px;
 }
 .title-info {
@@ -301,17 +301,17 @@ a.linkedin {
   margin-right: 40px;
 }
 .mission-text {
-  font-family: "GothamHTF-Light";
+  font-family: "open sans";
   line-height: 20px;
 }
 .bold-text {
   font-weight: 900;
 }
 .mission-h4 {
-  font-family: "GothamHTF-Book";
+  font-family: "open sans";
 }
 .mission-h3 {
-  font-family: "GothamHTF-Book";
+  font-family: "open sans";
   font-size: 25px;
   margin-top: 10px;
 }
@@ -359,7 +359,7 @@ a.linkedin {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .team-name {
-  font-family: "GothamHTF-Book";
+  font-family: "open sans";
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 0;
@@ -394,7 +394,6 @@ a.linkedin {
 .join-us-subheader {
   text-align: center;
   font-size: 22px;
-  font-family: "GothamHTF-Medium";
 }
 .join-us-section > .corner-lines {
   height: 100%;
