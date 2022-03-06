@@ -1,6 +1,8 @@
 # Beyond The Binary
 ### This is the webpage for the event
 
+Check it out: [Here](https://hackerabad.hackclub.com/btb)
+
 Table of contents
 =================
 - [Contribution Guideline](#contribution-guideline)
@@ -58,10 +60,13 @@ What it does
 A simple website to host our event.
 
 ## How we built it
+![hi](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/862/102/datas/original.png)
 HTML CSS and pinch of Javascript
 
 ## Challenges we ran into
+![](/assets/fix.png)
 Most of the team members were new to this.
+We tried our best to keep it mobile friendly (upto a resolution).
 
 ## Accomplishments that we're proud of
 Making a working website and getting it deployed on time
