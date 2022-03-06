@@ -15,7 +15,7 @@ Table of contents
 # contribution-guideline
 
 1. Fork the project
-![forking the project](https://i.imgur.com/qbVouuV.png)
+![forking the project](/assets/contribute.png)
 
 2. Once you are in your fork the url should look something like
 `https://github.com/<YOUR-USERNAME>/beyond-the-binary/`
