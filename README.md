@@ -65,6 +65,7 @@ HTML CSS and pinch of Javascript
 
 ## Challenges we ran into
 ![](/assets/fix.png)
+
 Most of the team members were new to this.
 We tried our best to keep it mobile friendly (upto a resolution).
 
