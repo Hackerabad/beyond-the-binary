@@ -1,0 +1,25 @@
+name: 🐞 Bug
+description: Found a bug/issue? Report here
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the issue. Tell us what you tried and what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this bug?
+    validations:
+      required: false
