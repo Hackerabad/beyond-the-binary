@@ -3,11 +3,20 @@ description: Found a bug/issue? Report here
 title: "[BUG]: "
 labels: ["bug"]
 body:
+  - type: checkboxes
+    attributes:
+      label: Checklist before submitting the issue
+      options:
+      - label: "I've searched for existing [Github issues](https://github.com/Hackerabad/beyond-the-binary/issues)"
+      required: true
+      #- label: "I've read the [Code of Conduct](#)"
+      #required: true
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A brief description of the issue. Tell us what you tried and what went wrong.
+      description: A brief description of the issue.
+      placeholder: Tell us what you tried and what went wrong.
     validations:
       required: true
   - type: textarea
