@@ -8,7 +8,7 @@ body:
       label: Checklist before submitting the issue
       options:
       - label: "I've searched for existing [Github issues](https://github.com/Hackerabad/beyond-the-binary/issues)"
-      required: true
+        required: true
       #- label: "I've read the [Code of Conduct](#)"
       #required: true
   - type: textarea
