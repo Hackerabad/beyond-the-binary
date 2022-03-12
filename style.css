@@ -43,7 +43,7 @@ a.linkedin {
   justify-content: space-between;
 }
 .nav-bar {
-  position: relative;
+  position: fixed;
   background-color: rgb(247, 250, 59);
   width: 100%;
   z-index: 10;
