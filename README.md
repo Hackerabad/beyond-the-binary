@@ -7,10 +7,10 @@ Table of contents
 =================
 - [Contribution Guideline](#contribution-guideline)
 - [Inspiration](#inspiration)
-- [Build](#build)
-- [Challenges](#challenges)
-- [Accomplishments](#accomplishments)
-- [Learnings](#learnings)
+- [Build](#how-we-built-it)
+- [Challenges](#challenges-we-ran-into)
+- [Accomplishments](#accomplishments-that-were-proud-of)
+- [Learnings](#what-we-learned)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
