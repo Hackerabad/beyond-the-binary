@@ -143,8 +143,6 @@ a.linkedin {
     #f38b94
   ); For Firefox 3.6 to 15 */
   background: linear-gradient(#edf05e, #f1f365, #ebec95);
-
-  color: white;
 }
 
 .heading {
@@ -283,7 +281,7 @@ a.linkedin {
 }
 /* OUr Mission Styling*/
 .our-mission-section {
-  background-color: #f7fa3b;
+  /* background-color: #f7fa3b; */
   color: black;
   width: 100vw;
 }
@@ -381,9 +379,7 @@ a.linkedin {
   margin-right: 5%;
   margin-left: 5%;
 }
-.speakers {
-  background-color: black;
-}
+
 .join-us-section {
   width: 80vw;
   margin: 0 auto;
@@ -842,67 +838,195 @@ a.school-list {
   margin-right: 30px;
 }
 
-
-
 .glow-on-hover {
-    width: 100%;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-    font-size: x-large;
-    font-family: 'Dancing Script', cursive;; 
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: x-large;
+  font-family: "Dancing Script", cursive;
 }
 
 .glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .glow-on-hover:active {
-    color: #000
+  color: #000;
 }
 
 .glow-on-hover:active:after {
-    background: transparent;
+  background: transparent;
 }
 
 .glow-on-hover:hover:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
+/* Schedule timeline */
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b1a17;
+}
+.timeline {
+  width: 90%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-size: 25px;
+
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-family: "GothamHTF-Bold";
+  font-weight: 900;
+}
+.timeline-content h3 {
+  font-family: "GothamHTF-Medium";
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 20px;
+  font-family: "GothamHTF-Light";
+  /* font-style: italic; */
+  font-style: italic;
+  font-weight: 300;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-left: 80px;
+  }
+  .timeline::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background-color: #525252;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .timeline ul li {
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    right: 60px;
+    transform: translateX(-30px);
+    border-radius: 30px 0px 30px 30px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    left: 20px;
+    transform: translateX(30px);
+    border-radius: 0px 30px 30px 30px;
+  }
+  .timeline ul li::after {
+    content: " ";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #2e2d2d;
+    border-radius: 45%;
+    top: -10px;
+  }
+  .timeline ul li:nth-child(odd)::after {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::after {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .timeline ul li:hover:after {
+    background-color: yellow;
+  }
+  .timeline-content .date {
+    position: absolute;
+    color: white;
+    top: -40px;
+  }
+}
