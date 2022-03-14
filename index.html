@@ -14,53 +14,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <header>
-    <div class="nav-bar">
-        <div class="nav-grid">
-            <div>
-                <a href="#"><img class="nav-img" src="./assets/navlogo.png" alt="home" width="70px"></a>
-            </div>
-            <div class="nav-menu">
-                <div>
-                    <a class="nav-link" href="#about">
-                        <h4 class="nav-title">ABOUT</h4>
-                    </a>
-                </div>
-                <div>
-                    <a class="nav-link" href="#join-us">
-                        <h4 class="nav-title">SPEAKERS</h4>
-                    </a>
-                </div>
-                <!-- <div>
-                    <a class="nav-link" href="#recap">
-                        <h4 class="nav-title">RECAP</h4>
-                    </a>
-                </div> -->
-                <div>
-                    <a class="nav-link" href="#schedule-faq">
-                        <h4 class="nav-title">SCHEDULE</h4>
-                    </a>
-                </div>
-
-                <div>
-                    <a class="nav-link" href="#sponsor">
-                        <h4 class="nav-title">PARTNERS</h4>
-                    </a>
-                </div>
-                <!-- <div>
-                    <a class="nav-link" href="#event-section">
-                        <h4 class="nav-title">LOCATION</h4>
-                    </a>
-                </div> -->
-                <div>
-                    <a class="nav-link" href="#contact">
-                        <h4 class="nav-title">CONTACT US</h4>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#join-us">SPEAKERS</a></li>
+            <li><a href="#schedule-faq">SCHEDULE</a></li>
+            <li><a href="#sponsor">SPONSOR</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
 </header>
 
 <body>
@@ -234,7 +205,7 @@
                 <h2 class="heading">Schedule/</h2>
                 <!-- <h1>Dropping Soon 📅</h1>
                 <i>Hint: Starting 18th March 2022</i> -->
-                <div class=" schedule-timeline">
+                <div class="schedule-timeline">
                     <div class="container">
                         <div class="timeline">
                             <ul>
