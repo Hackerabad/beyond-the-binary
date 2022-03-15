@@ -301,8 +301,7 @@ a.linkedin {
 }
 .mission-text {
   font-family: "open sans";
-  line-height: 20px;
-  font-size: large;
+  font-size: xx-large;
 }
 .bold-text {
   font-weight: 900;
@@ -949,6 +948,8 @@ a.school-list {
   margin-bottom: 0;
 }
 .timeline-content h1 {
+  font-family: "open sans", sans-serif !important;
+
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
@@ -957,7 +958,8 @@ a.school-list {
   font-weight: 900;
 }
 .timeline-content h3 {
-  font-family: GothamHTF-Medium;
+  font-family: "open sans", sans-serif;
+  font-style: italic;
 }
 .timeline-content p {
   font-size: 16px;
@@ -1458,7 +1460,7 @@ nav ul li {
 
 nav ul li a {
   position: relative;
-  color: white;
+  color: black;
   font-size: 18px;
   text-transform: uppercase;
   padding: 5px 0;
