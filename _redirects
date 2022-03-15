@@ -1,0 +1,4 @@
+# redirects pages to other urls
+/home /
+/event https://hackerabad.hackclub.com/
+/btb https://hackerabad.hackclub.com/
