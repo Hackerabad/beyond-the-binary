@@ -93,6 +93,11 @@ a.linkedin {
 .col {
   flex: 1;
 }
+.col > h4 {
+  margin: 4%;
+  font-weight: 700;
+  font-size: xx-large;
+}
 .title-col {
   width: 450px;
   /* margin-top: 100px; */
@@ -376,8 +381,7 @@ a.linkedin {
   max-width: 80%;
 }
 .apply-three-mid {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin: 2%;
 }
 
 .join-us-section {
