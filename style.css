@@ -1509,6 +1509,7 @@ label #cancel {
 @media (max-width: 860px) {
   label #btn {
     display: block;
+    color: black;
   }
 
   nav ul {
@@ -1530,6 +1531,7 @@ label #cancel {
 
   nav ul li a {
     font-size: 20px;
+    color: white;
   }
 
   #check:checked ~ ul {
@@ -1541,6 +1543,7 @@ label #cancel {
 
   #check:checked ~ label #cancel {
     display: block;
+    color: black;
   }
 }
 
