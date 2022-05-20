@@ -2,15 +2,12 @@
 
 ### This is the webpage for the event
 
-Check it out: [Here](https://hackerabad.hackclub.com/btb)
+Check it out [here](https://hackerabad.hackclub.com/btb)
 
 Table of contents
 =================
 
-- [Beyond The Binary](#beyond-the-binary)
-    - [This is the webpage for the event](#this-is-the-webpage-for-the-event)
-- [Table of contents](#table-of-contents)
-- [contribution-guideline](#contribution-guideline)
+- [Contribution guidelines](#contribution-guidelines)
 - [Inspiration](#inspiration)
 - [How we built it](#how-we-built-it)
 - [Challenges we ran into](#challenges-we-ran-into)
@@ -19,7 +16,7 @@ Table of contents
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-# contribution-guideline
+# contribution-guidelines
 
 1. Fork the project
 ![forking the project](/assets/contribute.png)
