@@ -1,16 +1,21 @@
 # Beyond The Binary
+
 ### This is the webpage for the event
 
 Check it out: [Here](https://hackerabad.hackclub.com/btb)
 
 Table of contents
 =================
-- [Contribution Guideline](#contribution-guideline)
+
+- [Beyond The Binary](#beyond-the-binary)
+    - [This is the webpage for the event](#this-is-the-webpage-for-the-event)
+- [Table of contents](#table-of-contents)
+- [contribution-guideline](#contribution-guideline)
 - [Inspiration](#inspiration)
-- [Build](#how-we-built-it)
-- [Challenges](#challenges-we-ran-into)
-- [Accomplishments](#accomplishments-that-were-proud-of)
-- [Learnings](#what-we-learned)
+- [How we built it](#how-we-built-it)
+- [Challenges we ran into](#challenges-we-ran-into)
+- [Accomplishments that we're proud of](#accomplishments-that-were-proud-of)
+- [What we learned](#what-we-learned)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -22,10 +27,10 @@ Table of contents
 2. Once you are in your fork the url should look something like
 `https://github.com/<YOUR-USERNAME>/beyond-the-binary/`
 
-3. Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
-   - HTTP
+3. Go to preferred folder in your computer and paste the following command (Github is [deprecating](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) the HTTPS option, so go with it only if you don't have SSH setup - you can set up ssh authentication by following [these](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) steps.)
+   - HTTPS  
    `git clone https://github.com/<YOUR-USERNAME>/beyond-the-binary.git`
-   - SSH
+   - SSH  
    `git clone git@github.com:<YOUR-USERNAME>/beyond-the-binary.git`
 
 4. Now enter the folder by running the following command
@@ -36,7 +41,7 @@ Table of contents
 6. Now do ahead and create a new branch and move to the branch
 `git checkout -b fix-issue-<ISSUE-NUMBER>`
 
-7. Now run `npm i` and once it's done do your fixes and changes.
+7. Now run `npm i` and once it's done do your fixes and changes.  You'll need to set up `npm` and `node`, here's a [guide](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac) for the same.
 
 8. After done you can now push this changes. for doing that follow the following command chain
    - `git status` (Shows the changed files)
@@ -50,27 +55,27 @@ Table of contents
 
 11. Click on **Submit**
 
-12. Hurrey! You just did your contribution to this project 🎉
+12. Hurray! You just did your contribution to this project 🎉
 
-## Inspiration
+# Inspiration
 The aim of this show is to embrace two factors from the title
 Making a career in tech is not only limited to code (beyond the binary code)
 Tech communities encouraging folks of diverse backgrounds to get involved (hence beyond binary again)
 What it does
 A simple website to host our event.
 
-## How we built it
+# How we built it
 ![hi](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/862/102/datas/original.png)
 HTML CSS and pinch of Javascript
 
-## Challenges we ran into
+# Challenges we ran into
 ![](/assets/fix.png)
 
 Most of the team members were new to this.
 We tried our best to keep it mobile friendly (upto a resolution).
 
-## Accomplishments that we're proud of
+# Accomplishments that we're proud of
 Making a working website and getting it deployed on time
 
-## What we learned
+# What we learned
 Team work, delegation, async work and of course fixing CSS 💀
