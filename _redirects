@@ -1,5 +1,3 @@
 # redirects pages to other urls
-/ https://forms.gle/V8cb7AdqESVC7Veo7 302
-/home https://forms.gle/V8cb7AdqESVC7Veo7 302
 /event https://hackerabad.hackclub.com/
 /btb https://hackerabad.hackclub.com/
