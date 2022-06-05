@@ -1,4 +1,5 @@
 # redirects pages to other urls
+/ https://forms.gle/V8cb7AdqESVC7Veo7
 /home https://forms.gle/V8cb7AdqESVC7Veo7
 /event https://hackerabad.hackclub.com/
 /btb https://hackerabad.hackclub.com/
